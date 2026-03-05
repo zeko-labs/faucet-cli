@@ -1,0 +1,17 @@
+{
+	"name": "@zeko-labs/faucet-cli-win32-x64",
+	"version": "0.1.2",
+	"description": "Windows x64 binary for @zeko-labs/faucet-cli",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"os": ["win32"],
+	"cpu": ["x64"],
+	"files": ["bin"],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zeko-labs/zeko-ui.git",
+		"directory": "packages/faucet-cli/npm/win32-x64"
+	}
+}

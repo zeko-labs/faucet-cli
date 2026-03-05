@@ -1,0 +1,17 @@
+{
+	"name": "@zeko-labs/faucet-cli-darwin-x64",
+	"version": "0.1.2",
+	"description": "Darwin x64 binary for @zeko-labs/faucet-cli",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"os": ["darwin"],
+	"cpu": ["x64"],
+	"files": ["bin"],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zeko-labs/zeko-ui.git",
+		"directory": "packages/faucet-cli/npm/darwin-x64"
+	}
+}
